@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    /*background-color: #061396;*/
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.904);
+    align-items: center;
+}
+
+header img {
+    width: 140px;
+    /*height: 100%;*/
+}
+
+header h1 {
+    font-family: "SUSE", sans-serif;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li {
+    margin: 60px;
+    font-size: 18px;
+    font-family: "SUSE", sans-serif;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    /*padding-top: 20px;*/
+}
+
+header a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.logoImg {
+    width: 100px;
+}
+
+#banerConvoca{
+    width: 100%;
+    margin-bottom: 200px;
+    padding: 50px 20px 50px 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(14, 0, 27);
+    color: aliceblue;
+    text-align: center;
+}
+#banerConvoca h1{
+    font-size: 55px;
+    font-family: "SUSE", sans-serif;
+}
+
+#banerConvoca p{
+    font-size: 30px;
+    font-family: "SUSE", sans-serif;
+}
+
+#tablacostos{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1{
+    width: 80%;
+    /*display: flex;
+    flex-direction: column;*/
+    align-items: center;
+    justify-content: center;
+    border-style: double;
+    border-color: rgb(197, 185, 10);
+    border-width: thick;
+    margin-bottom: 100px;
+    padding: 25px 25px 25px 25px;
+}
+
+.box1 h1{
+    font-family: "SUSE", sans-serif;
+    
+}
+
+
+.box2{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-style: double;
+    border-color: rgb(197, 185, 10);
+    border-width: thick;
+    margin-bottom: 100px;
+    padding: 60px 50px 60px 50px;
+}
+
+.box2 h1{
+    font-family: "SUSE", sans-serif;
+}
+.box2 h2{
+    font-family: "SUSE", sans-serif;
+    text-align: center;
+}
+
+.box2 h3{
+    font-family: "SUSE", sans-serif;
+    text-align: center;
+    align-items: center;
+}
+.box2 h4{
+    font-family: "SUSE", sans-serif;
+    align-items: center;
+}
+
+.box2 p{
+    font-family: "SUSE", sans-serif;
+}
+
+.box2 p{
+    font-family: "SUSE", sans-serif;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.box2 img{
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+
+.boton{
+    width: 10px;
+    color: rgb(145, 9, 9);
+}
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#imagenFooter{
+    box-shadow: 0 0 8px 8px white inset;
+
+}
+
+footer h1 {
+    color: aliceblue;
+}
+
+footer p {
+    color: aliceblue;
+}
+
